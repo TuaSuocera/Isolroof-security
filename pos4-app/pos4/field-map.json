@@ -1,0 +1,69 @@
+{
+  "template": {
+    "relativePath": "../documenti/POS 4.pdf"
+  },
+  "defaults": {
+    "font": "Helvetica",
+    "fontSize": 10,
+    "colorRgb": [0, 0, 0],
+    "lineHeight": 12
+  },
+  "fields": [
+    {
+      "key": "documentDate",
+      "label": "Data documento",
+      "page": 0,
+      "x": 450,
+      "y": 790,
+      "fontSize": 10,
+      "maxWidth": 120
+    },
+    {
+      "key": "siteName",
+      "label": "Cantiere - Nome",
+      "page": 0,
+      "x": 80,
+      "y": 720,
+      "fontSize": 10,
+      "maxWidth": 480
+    },
+    {
+      "key": "siteAddress",
+      "label": "Cantiere - Indirizzo",
+      "page": 0,
+      "x": 80,
+      "y": 705,
+      "fontSize": 10,
+      "maxWidth": 480
+    },
+    {
+      "key": "clientName",
+      "label": "Committente - Ragione sociale",
+      "page": 0,
+      "x": 80,
+      "y": 680,
+      "fontSize": 10,
+      "maxWidth": 480
+    },
+    {
+      "key": "clientAddress",
+      "label": "Committente - Indirizzo",
+      "page": 0,
+      "x": 80,
+      "y": 665,
+      "fontSize": 10,
+      "maxWidth": 480
+    },
+    {
+      "key": "notes",
+      "label": "Note",
+      "page": 0,
+      "x": 80,
+      "y": 200,
+      "fontSize": 10,
+      "maxWidth": 480,
+      "maxLines": 10
+    }
+  ]
+}
+
